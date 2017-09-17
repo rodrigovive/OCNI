@@ -1,0 +1,116 @@
+<!DOCTYPE>
+<html>
+<head>
+    
+
+    <link rel="stylesheet" href="busquedaestilo.css" />
+
+
+</head>
+<body>
+<div class="contenedor">
+
+
+    <div class="cont_center_2">
+        <div class="title" style="text-align:center">
+            RESOLUCIONES EMITIDAS POR LA UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN
+        </div>
+        <div class="cont_body2">
+            <div class="busqueda">
+                <div class="subbusqueda">
+                    <h1>Búsqueda por tipo y fecha</h1>
+                    <div class="item">
+                        <label>Seleccione tipo:</label>
+                        <select id="tipo" style="width:198px">
+                                                                            <option value="rr">RECTORAL</option>
+                                                                                    <option value="cu">CONSEJO UNIVERSITARIO</option>
+                                                                                    <option value="co">COMISIÓN DE ORDEN Y GESTIÓN</option>
+                                                                                    <option value="au">ASAMBLEA UNIVERSITARIA</option>
+                                                                                    <option value="ac">ACTA DE CONSEJO UNIVERSITARIO</option>
+                                                                                    <option value="aa">ACTA DE ASAMBLEA UNIVERSITARIA</option>
+                                                                                    <option value="cf">ACTA DE CONSEJO DE FACULTAD</option>
+                                                                                    <option value="da">DIRECTORAL ADMINISTRATIVA</option>
+                                                                                    <option value="rf">RESOLUCIONES DE FACULTAD</option>
+                                                                </select>
+                    </div>
+                    <div class="item">
+                        <div class="subitem">
+                            <label>Año:</label>
+                            <select id="anio" style="width:80px">
+                                
+                            </select>
+                        </div>
+                        <div class="subitem" style="margin-right:0px;">
+                            <label>Mes:</label>
+                            <select id="mes" style="width:110px">
+                                
+                            </select>
+                        </div>
+                    </div>
+                    
+                        <div class="item" style="text-align:right">
+                            <button onclick="buscarResolucion()" class="mi_boton" type="button">BUSCAR</button>  
+                            
+                        </div>
+                </div>
+                
+       <div class="subbusqueda">
+                    <form id="form_buscar">
+                            <h1>Buscar por texto:</h1>
+                            <div class="item">
+                                    <input type="text" id="texto" />
+                            </div>
+                        
+                <div class="item" style="text-align:right">
+                                    <button class="mi_boton" type="submit">BUSCAR</button>
+                            </div>
+                    </form>
+        </div>
+
+
+        <div class="subbusqueda">
+                    <form id="form_buscar2">
+                            <h1>Buscar por número:</h1>
+                            <div class="item">
+                                <input type="text" id="texto2" />
+                            </div>
+                            <div class="item" style="text-align:right">
+                            <button class="mi_boton" type="submit">BUSCAR</button>
+                            </div>
+                </form>
+        </div>
+
+            </div>
+
+            <div class="resultados" id="resultados">
+            
+            </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

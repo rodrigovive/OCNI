@@ -1,0 +1,159 @@
+
+
+.form-register{
+	background: rgba(158, 158, 158, 0.7);
+	/*background-color: #fff;*/
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	border-radius: 7px;
+	color: darkgray;
+	border-bottom: solid #570507 2px;
+
+}
+/*For mobile*/
+@media only screen and (max-width: 768px){
+	.inputt-48{
+	width: 100%;
+}
+	.inputt-100{
+		width: 100%;
+	}
+	.selectigual{
+
+	
+		width: 100%;
+		height: 100%;
+	}
+}
+/*For table*/
+/*@media only screen and (){
+	.form-register{
+
+	}
+}*/
+
+@media only screen and (min-width: 768px){
+	.inputt-48{
+	width: 48%;
+	}
+	.inputt-100{
+		width: 100%;
+	}
+	.selectigual{
+	
+		width: 48%;
+		height: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.form__titulo{
+	/*background: #570507;*/
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	
+	border-top: solid #570507 7px;
+	text-transform: uppercase;	
+	font-family: 'Roboto', sans-serif;
+
+
+
+
+
+
+}
+.contenedor-input_and_select{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+input,button{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+select{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+
+
+.select-especial{
+	margin-bottom: 15px;
+	padding: 0;
+	font-size: 16px;
+	border-radius: 3px;
+	/*border: 1px solid darkgray;*/
+
+}
+
+.selectigual{
+	
+	width: 48%;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+.btnenviar{
+	background: none;
+	color: white;
+	margin: auto;
+	padding: 10px 35px;
+	cursor: pointer;
+	border: #fff solid 1px;
+	transition: all 0.2s ease-in-out;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btnenviar:hover{
+	background: rgba(255, 255, 255, 0.3);
+}
+.btnenviar:active{
+	transform: scale(1.05);
+}
+
+/*El titulo de arriba*/
+
+
+
+@media only screen and (min-width: 1199px){
+	.logotitulo::after{
+		
+		content: "Oficina de Cooperación Nacional e Intercambio Académico";
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 1199px){
+	.logotitulo::after{
+		content: "OCNI";
+	}
+}
+

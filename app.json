@@ -1,0 +1,16 @@
+{
+  "name": "OCNI2",
+  "description": "Gestor de convenios",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
